@@ -1,2 +1,3 @@
 # todoListReactApp
-working in progress
+work in progress
+coming soon 👀
