@@ -10,6 +10,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState('all');
   const [filteredTodos, setFilteredTodos] = useState([]);
+
 // Run ONCE when the app start
 useEffect(() => {
   getLocalTodos();
@@ -51,10 +52,15 @@ const getLocalTodos = () => {
 };
 
 
+
+
+
+
+
   return (
     <div className="App">
       <header>
-        <h1>My Todo List</h1>
+        <h1>My To-do List</h1>
       </header>
       <Form inputText={inputText} 
       todos={todos} 
